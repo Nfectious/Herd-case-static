@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Evidence: Travis Herd vs. Progressive Insurance</title>
+    <style>
+        :root {
+            --primary-blue: #1a2a40;
+            --accent-gold: #c5a059;
+            --text-gray: #f4f4f4;
+            --border-red: #8b0000;
+            --bg-dark: #0f172a;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            background: var(--bg-dark);
+            color: #d1d5db;
+        }
+
+        .header-banner {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-gold);
+        }
+
+        .header-banner h1 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .header-banner .subtitle {
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .vehicle-manifest {
+            background: #1e293b;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+            font-size: 0.95rem;
+            font-family: 'Arial', sans-serif;
+            color: #94a3b8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: #1e293b;
+            border-left: 4px solid var(--accent-gold);
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .section h2 {
+            color: white;
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .legal-note {
+            background: rgba(139, 0, 0, 0.1);
+            border: 1px solid var(--border-red);
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2px;
+            background: #334155;
+            border: 1px solid #334155;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+        }
+
+        .stat-label { font-size: 0.8rem; text-transform: uppercase; color: #94a3b8; }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            border-left: 2px solid #334155;
+            margin-bottom: 30px;
+        }
+
+        .timeline-date {
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .timeline-event {
+            color: white;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .evidence-card {
+            border: 1px solid #334155;
+            background: #0f172a;
+        }
+
+        .evidence-caption {
+            padding: 15px;
+            font-size: 0.85rem;
+            border-top: 1px solid #334155;
+        }
+
+        .demand-box {
+            background: #0f172a;
+            border: 2px solid var(--accent-gold);
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .demand-amount {
+            font-size: 3.5rem;
+            color: white;
+            font-weight: bold;
+            margin: 20px 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 0.8rem;
+            color: #64748b;
+            border-top: 1px solid #334155;
+        }
+
+        .highlight-gold { color: var(--accent-gold); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="header-banner">
+    <h1>Formal Evidence Report</h1>
+    <div class="subtitle">UNAUTHORIZED VEHICLE DISPOSAL DURING ACTIVE CLAIM</div>
+    <div class="subtitle">Claimant: Travis Herd | Insurer: Progressive Insurance</div>
+</div>
+
+<div class="vehicle-manifest">
+    2020 HONDA CR-V LX AWD &bull; VIN: 2HKRW1H23LH404578 &bull; COPART LOT: 57704245 &bull; ASSET DISPOSED: MAY/JUNE 2025
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Statement of Facts</h2>
+        <div class="legal-note">
+            Progressive Insurance assumed possession of the subject vehicle on April 22, 2025. While the total loss claim remained active and unresolved, the insurer proceeded to dispose of the asset [...]
+        </div>
+        
+        <div class="stat-grid">
+            <div class="stat-card">
+                <span class="stat-number">219+</span>
+                <span class="stat-label">Days Unresolved</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">$0.00</span>
+                <span class="stat-label">Total Settlement Paid</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Proceeds Retained by Insurer</span>
+            </div>
+        </div>
+
+        <p><strong>Documented Actions by Insurer:</strong></p>
+        <ul style="margin: 20px 0; padding-left: 20px; color: #94a3b8;">
+            <li>Unauthorized transfer of vehicle to Copart Knoxville (Lot 57704245).</li>
+            <li>Listing of Progressive Insurance as legal SELLER on auction records.</li>
+            <li>Retention of 100% of salvage proceeds while claim was pending.</li>
+            <li>Failure to provide notice of disposal or total loss settlement offer.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Evidence Exhibits</h2>
+        <div class="evidence-grid">
+            <div class="evidence-card">
+                <div class="evidence-caption">
+                    <span class="highlight-gold">EXHIBIT A:</span> Copart Seller Records identifying Progressive Insurance as the disposing party.
+                </div>
+            </div>
+            <div class="evidence-card">
+                <div class="evidence-caption">
+                    <span class="highlight-gold">EXHIBIT B:</span> International Resale Records showing vehicle VIN active in overseas markets post-auction.
+                </div>
+            </div>
+            <div class="evidence-card">
+                <div class="evidence-caption">
+                    <span class="highlight-gold">EXHIBIT C:</span> Premium Billing Statements confirming active coverage during the disposal period.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Timeline of Claim Mismanagement</h2>
+        <div class="timeline-item">
+            <div class="timeline-date">April 22, 2025</div>
+            <div class="timeline-event">Accident Incident & Claim Initiation</div>
+            <p>Progressive takes physical possession of vehicle. Concurrently, policyholder removes claimant from policy at 4:40 PM without notification.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">May - June 2025</div>
+            <div class="timeline-event">Asset Liquidation</div>
+            <p>Vehicle sold at salvage auction. Progressive retains proceeds. No settlement communication initiated with claimant.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">July - November 2025</div>
+            <div class="timeline-event">Systemic Denial Pattern</div>
+            <p>Insurer provides four conflicting rationales for non-payment, ranging from "missing rental" to "insurable interest" disputes.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Statutory Violations (TN Code)</h2>
+        <p>This matter involves documented instances of:</p>
+        <ul style="margin: 20px 0; padding-left: 20px;">
+            <li><strong>Conversion of Property:</strong> Sale of asset without legal title transfer or consent.</li>
+            <li><strong>T.C.A. § 56-7-903:</strong> Bad faith refusal to pay valid insurance claims.</li>
+            <li><strong>T.C.A. § 56-8-105:</strong> Unfair claim settlement practices.</li>
+        </ul>
+    </div>
+
+    <div class="demand-box">
+        <h2 style="border: none;">Formal Liquidation Demand</h2>
+        <p>Total Settlement Required by December 9, 2025</p>
+        <div class="demand-amount">$56,625.00</div>
+        <p style="font-size: 0.9rem; color: #94a3b8;">
+            Includes Actual Cash Value, Statutory Penalties (25%), and Loss of Use ($75/day).
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>SUBMITTED BY: TRAVIS HERD</p>
+    <p>CASE REF: #25-822866566 | #25-918737489</p>
+    <p style="margin-top: 20px;">Prepared for Legal Counsel and Tennessee Department of Commerce and Insurance.</p>
+</footer>
+
+</body>
+</html>
